@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="page-title">Тортики <span class="accent-color accent-font">&</span> Тістечка</h1>
+    </header>
+    <main class="container">
+        <input filter="pie" type="radio" name="menu-filter" id="action-pie" class="hidden">
+        <input filter="cupcakes" type="radio" name="menu-filter" id="action-cupcakes" class="hidden">
+        <input filter="roulette" type="radio" name="menu-filter" id="action-roulette" class="hidden">
+        <input filter="cake" type="radio" name="menu-filter" id="action-cake" class="hidden">
+        <input filter="pancake" type="radio" name="menu-filter" id="action-pancake" class="hidden">
+        <input filter="clean-filter" checked type="radio" name="menu-filter" id="action-clean-filter" class="hidden">
+        <aside>
+            <div class="range-filter-wrapper">
+                <span>Калорії у порції</span>
+                <div class="range-filter"><div class="range-wrapper"><div class="range"></div></div></div>
+                <span>Від 0 до 400 кКал</span>
+
+            </div>
+            <ul class="filter-list">
+                <li class="filter-item"><label for="action-pie" class="filter-button">Пиріг</label></li>
+                <li class="filter-item"><label for="action-cupcakes" class="filter-button">Тістечко</label></li>
+                <li class="filter-item"><label for="action-roulette" class="filter-button">Рулет</label></li>
+                <li class="filter-item"><label for="action-cake" class="filter-button">Торт</label></li>
+                <li class="filter-item"><label for="action-pancake" class="filter-button">Сирник</label></li>
+                <li class="filter-item"><label for="action-clean-filter" class="filter-button">Скинути фільтр</label></li>
+            </ul>
+        </aside>
+        <ul class="item-list">
+            <li product-type="cake" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/s156-2.jpg" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Торт</span>
+                        <h2 class="item-title">Сметанковий</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 277 кКал </p>
+                </div>
+            </li>
+            <li product-type="cupcakes" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg.webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Тiстечко</span>
+                        <h2 class="item-title">Мафiн</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 492 кКал</p>
+                </div>
+            </li>
+            <li product-type="pancake" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg (1).webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Сирники</span>
+                        <h2 class="item-title">"З кукурудзяним борошном та варенням"</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 440 кКал</p>
+                </div>
+            </li>
+            <li product-type="cake" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg (2).webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Торт</span>
+                        <h2 class="item-title">Смачний</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 523 кКал</p>
+                </div>
+            </li>
+            <li product-type="roulette" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg (3).webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Рулет</span>
+                        <h2 class="item-title">Святковий</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 380 кКал</p>
+                </div>
+            </li>
+            <li product-type="pie" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg (4).webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Пиріг</span>
+                        <h2 class="item-title">Свято у бабусі</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 298 кКал</p>
+                </div>
+            </li>
+            <li product-type="cake" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg (5).webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Торт</span>
+                        <h2 class="item-title">Медовик</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 600 кКал</p>
+                </div>
+            </li>
+            <li product-type="cupcakes" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg (6).webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Тістечко</span>
+                        <h2 class="item-title">Бельгийске</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 438 кКал</p>
+                </div>
+            </li>
+            <li product-type="cupcakes" class="item">
+                <div class="main-info">
+                    <img class="picture" src="./images/p_O.jpg (7).webp" alt="">
+                    <div class="item-head">
+                        <span class="item-type">Тістечко</span>
+                        <h2 class="item-title">Вупi</h2>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <p class="item-description">Калорії у порції 348 кКал</p>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <footer class="container">
+        <span class="contacts">Контакти: <a href="">tortik@smakota.ua</a></span> <span class="contacts">© 2019 Smakota</span>
+    </footer>
+</body>
+</html>
